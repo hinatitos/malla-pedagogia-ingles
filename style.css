@@ -1,1 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: #b83280; /* Rosa oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #fbb6ce; /* Rosa pastel */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f687b3;
+}
+
+.semestre {
+    margin: 20px 0;
+}
+
+.curso {
+    display: inline-block;
+    background-color: #fdf2f8; /* Fondo rosado suave */
+    color: #b83280;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #fbb6ce;
+}
+
+.curso.completed {
+    text-decoration: line-through;
+    background-color: #fbb6ce;
+    color: white;
+}
+
+.curso.locked {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
 
